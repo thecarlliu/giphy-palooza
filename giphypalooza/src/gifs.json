@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Tiny Rick",
+    "image": "https://media.giphy.com/media/2s0ouek7HJmWQ/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 2,
+    "name": "My Man",
+    "image": "https://media.giphy.com/media/qPVzemjFi150Q/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 3,
+    "name": "Pickle Rick",
+    "image": "https://media.giphy.com/media/9zXWAIcr6jycE/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 4,
+    "name": "What is my purpose?",
+    "image": "https://media.giphy.com/media/Fsn4WJcqwlbtS/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 5,
+    "name": "Riggety Rekt",
+    "image": "https://media.giphy.com/media/mR3FqAStFhyiQ/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 6,
+    "name": "Wubba lubba",
+    "image": "https://media.giphy.com/media/l41lI4bYmcsPJX9Go/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 7,
+    "name": "Schwifty",
+    "image": "https://media.giphy.com/media/wFbI8gwCfCxeo/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 8,
+    "name": "Snowball",
+    "image": "https://media.giphy.com/media/l0MYO8AQe6EAu0Lg4/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 9,
+    "name": "Szechuan Sauce",
+    "image": "https://media.giphy.com/media/8HhbENQPdWUoM/giphy.gif",
+    "isClicked": "false"
+  },
+  {
+    "id": 10,
+    "name": "Don't trip Dawg",
+    "image": "https://media.giphy.com/media/ayQ99hp01HFN6/giphy.gif",
+    "isClicked": "false"
+  }
+]
