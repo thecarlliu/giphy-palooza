@@ -45,12 +45,10 @@ class App extends Component {
         gifs.forEach((gif) => {
             if (gif.name === gifName) {
                 if (gif.isClicked === "true") {
-                    alert("REEEE");
                     this.resetScore();
                     this.resetClicked();
                 }
                 else {
-                    alert("correct");
                     gif.isClicked = "true";
                     this.setState({gifs: gifs});
                     this.incrementScore();
@@ -64,25 +62,32 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1 className="title">Giphy-Palooza!</h1>
-                <h2 className="currentScore">Score: {this.state.score}</h2>
-                <h2 className="highScore">High Score: {this.state.highScore}</h2>
-                <div className="gallery">
-                {
-                    this.state.gifs.map((gif) => (
-                        <img
-                            id={gif.id}
-                            key={gif.id}
-                            alt={gif.name}
-                            src={gif.image}
-                            width="auto"
-                            height="150px"
-                            onClick={() => this.update(gif.name)}
-                        />
-                    ))
-                }
+                <div className="jumbotron">
+                    <h1 className="title">Giphy-Palooza!</h1>
+                    <p className="lead subtitle">Click on a gif to score points!</p>
+                    <p className="lead subtitle">Don't click on the same gif twice, or you'll have to start over!</p>
+                    <hr className="my-4"/>
+                    <p className="scores">Score: {this.state.score}  Highscore: {this.state.highScore}</p>
+                    <hr className="my-4"/>
+                    <div className="gallery">
+                        {
+                            this.state.gifs.map((gif) => (
+                                <img
+                                    id={gif.id}
+                                    key={gif.id}
+                                    alt={gif.name}
+                                    src={gif.image}
+                                    className="gif"
+                                    width="auto"
+                                    height="150px"
+                                    onClick={() => this.update(gif.name)}
+                                />
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
+
         )
     }
 }

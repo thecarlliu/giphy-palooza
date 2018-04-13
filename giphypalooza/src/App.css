@@ -1,5 +1,32 @@
+.jumbotron {
+    background-color: #7236ff;
+    color: white;
+}
+
 .title {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.subtitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.scores {
+    text-align: center;
+}
+
+.gallery {
+    margin: auto;
+    width: 90%;
+}
+.gif {
+    margin: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: white;
 }
